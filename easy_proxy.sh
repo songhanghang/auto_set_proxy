@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo "\n---------------- Support ------------------"
-echo "设置默认代理    ./easy_proxy.sh set"
-echo "设置自定义代理  ./easy_proxy.sh set ****:8888"
-echo "删除代理       ./easy_proxy.sh clean"
+echo "设置默认代理    easyproxy set"
+echo "设置自定义代理   easyproxy set ****:8888"
+echo "删除代理        easyproxy clean"
 echo "--------------------------------------------\n"
 
 # WIFI IP
@@ -29,3 +29,4 @@ elif [ "$1" == "clean" ];then
 else
     echo "!!! 请输入合法的操作符 !!!"
 fi
+
