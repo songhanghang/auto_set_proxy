@@ -17,29 +17,33 @@
 一不小心，还会写错 ...
 
 ## 自动设置
-只需一行代码，自动获取本机 IP 设置抓包代理。
+只需一行代码，自动获取电脑IP地址并设置网络代理。
 支持WiFi和网线环境下自动设置代理
 
 #### 设置默认代理
-``` bash
+``` shell
 $ easyproxy set
 ```
 #### 设置自定义代理
-```bash
+```shell
 $ easyproxy set ****:8888
 ```
 #### 清除代理
-
 ```bash
 $ easyproxy clean
 ```
 ## 安装
 
+下载
 
-```bash
-./install.sh
+``` shell
+$ git clone git@github.com:songhanghang/auto_proxy.git
 ```
-如果使用zsh, 辛苦执行下
+解压后执行
+``` shell
+$ ./install.sh
+```
+如果使用zsh执行fail, 辛苦执行下
 ``` shell
 $ source ~/.zshrc
 ```
@@ -61,3 +65,5 @@ $ source ~/.zshrc
   ```
 * Q: 设置代理后WiFi高级选项中看不到代理信息? 没办法取消代理?
   A: 对滴，手机上无法取消，必须通过命令取消！！！ 鱼与熊掌自选...
+  
+* 只验证了mac, ubuntu请自测， window请自重！
