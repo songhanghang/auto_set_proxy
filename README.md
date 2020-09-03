@@ -34,6 +34,7 @@ $ easyproxy clean
 ```
 ## 安装
 [https://github.com/songhanghang/auto_proxy](https://github.com/songhanghang/auto_proxy)
+
 下载
 
 ``` shell
