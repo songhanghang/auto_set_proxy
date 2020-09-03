@@ -43,7 +43,7 @@ $ git clone git@github.com:songhanghang/auto_proxy.git
 ``` shell
 $ ./install.sh
 ```
-如果使用zsh执行fail, 辛苦执行下
+如果使用zsh执行fail, 辛苦执行下，然后重启终端
 ``` shell
 $ source ~/.zshrc
 ```
@@ -64,6 +64,7 @@ $ source ~/.zshrc
   ``` shell
   $ source ~/.zshrc
   ```
+  重启终端
 * Q: 设置代理后WiFi高级选项中看不到代理信息? 没办法取消代理?
 
   A: 对滴，手机上无法取消，必须通过命令取消！！！ 鱼与熊掌自选...
