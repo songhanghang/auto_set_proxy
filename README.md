@@ -43,7 +43,7 @@ $ git clone git@github.com:songhanghang/auto_proxy.git
 ``` shell
 $ ./install.sh
 ```
-如果使用zsh执行fail, 辛苦执行下，然后重启终端
+如果使用zsh执行fail, 辛苦执行下source，然后重启终端
 ``` shell
 $ source ~/.zshrc
 ```
