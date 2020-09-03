@@ -52,6 +52,7 @@ $ source ~/.zshrc
 
 ### FAQ
 * Q: 执行命令时 Not find Command
+
   A: 解决办法 
   bash下 
   
@@ -64,6 +65,7 @@ $ source ~/.zshrc
   $ source ~/.zshrc
   ```
 * Q: 设置代理后WiFi高级选项中看不到代理信息? 没办法取消代理?
+
   A: 对滴，手机上无法取消，必须通过命令取消！！！ 鱼与熊掌自选...
   
 * 只验证了mac, ubuntu请自测， window请自重！
