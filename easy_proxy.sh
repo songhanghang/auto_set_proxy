@@ -6,12 +6,8 @@ echo "设置自定义代理   easyproxy set ****:8888"
 echo "删除代理        easyproxy clean"
 echo "--------------------------------------------\n"
 
-# WIFI IP
-ip=$(ifconfig en0 | grep -E 'inet \d{3}.' | awk '{print $2}')
-# 网线 IP
-if [ -z $ip ];then
-    ip=$(ifconfig en7 | grep -E 'inet \d{3}.' | awk '{print $2}')
-fi
+# 获取IP
+ip=$(ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p')
 default_proxy=${ip}":8888"
 
 echo "本机IP为: $default_proxy\n"
