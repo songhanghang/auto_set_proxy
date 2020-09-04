@@ -8,9 +8,15 @@ echo "--------------------------------------------\n"
 
 # 获取 IP
 ip=$(ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p')
+echo $IP
+count=$(echo $ip | tr ' ' '\n' | wc -l )
+if [ $count -gt 1 ];then
+    echo "多个ip,请手动选择一个"
+    exit
+fi
 default_proxy=${ip}":8888"
 
-echo "本机IP为: $default_proxy\n"
+echo "本机IP为: $default_proxy"
 if [ "$1" == "set" ];then
     if [ -n "$2" ];then
         echo "设置自定义代理 $2"
