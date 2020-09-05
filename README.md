@@ -38,7 +38,7 @@ $ easyproxy clean
 下载
 
 ``` shell
-$ git clone git@github.com:songhanghang/auto_proxy.git
+$ git clone git@github.com:songhanghang/auto_set_proxy.git
 ```
 解压后执行
 ``` shell
