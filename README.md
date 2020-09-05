@@ -33,7 +33,7 @@ $ easyproxy set ****:8888
 $ easyproxy clean
 ```
 ## 安装
-[https://github.com/songhanghang/auto_proxy](https://github.com/songhanghang/auto_proxy)
+[https://github.com/songhanghang/auto_set_proxy](https://github.com/songhanghang/auto_set_proxy)
 
 下载
 
