@@ -8,7 +8,7 @@ echo "--------------------------------------------\n"
 
 # 获取 IP
 ip=$(ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p')
-echo $IP
+echo $ip
 count=$(echo $ip | tr ' ' '\n' | wc -l )
 if [ $count -gt 1 ];then
     echo "多个ip,请手动选择一个"
