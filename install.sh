@@ -3,7 +3,7 @@ targetPath=$HOME/lib/easyproxy
 sh_name="easyproxy"
 yes | rm -rf $targetPath
 mkdir $targetPath
-chomd 777 ./easy_proxy.sh
+chmod 777 ./easy_proxy.sh
 cp ./easy_proxy.sh $targetPath/
 bashrc_file=${HOME}/.bashrc
 zshrc_file=${HOME}/.zshrc
